@@ -1,38 +1,313 @@
-.App {
-  text-align: center;
+/********** H O M E **********/
+h1{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 34px;
+    letter-spacing: 6px;
+}
+hr{
+    color: white;
+    margin-top: 30px;
+    background-color: white;
+    height: 1px;
+    width: 106px;
+    border: 0;
+}
+svg{
+    color: #ffffff;
+    width: 36px;
+    height: 25px;
+}
+.start-page p{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+.fondo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 660px;
+}
+.text-content{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 700px;
+    height: 520px;
+}
+.read-more{
+    width: 183px;
+    height: 47px;
+    margin: 100px auto;
+    line-height: 47px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.read-more:hover{
+    color: #ffffff;
+    background: #ada074;
+    border: 1px solid #ada074;
+}
+/********** M E N U **********/
+nav{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: white;
+    border-bottom: 1px solid #f2f2f2;
+    z-index: 1000;
+}
+h2{
+    font-size: 34px;
+    color: black;
+    text-align: center;
+    margin-top: 120px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: #ada074;
+}
+.about hr{
+    color: black;
+    margin-top: 30px;
+    background-color: black;
+    height: 1px;
+    width: 106px;
+    border: 0;
+}
+.about p.title {
+    color: #a4a4a4;
+    margin: 40px auto;
+    width: 300px;
+    line-height: 26px;
+    letter-spacing: 0;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+.about .card-img-top{
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid #f0f0f0;
+    border-radius: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+.about p{
+    text-align: center;
+    font-size: 14px;
+    width: 250px;
+    margin: 30px auto;
+    color: #a4a4a4;
+    line-height: 26px;
+    letter-spacing: 0;
+    position: relative;
+    font-weight: 300;
+}
+/********** P O R T F O L I O **********/
+.portfolio p{
+    font-size: 34px;
+    color: black;
+    text-align: center;
+    margin-top: 120px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.portfolio hr{
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background-color: black;
+    height: 1px;
+    width: 106px;
+    border: 0;
+}
+.portfolio .read-more{
+    width: 183px;
+    height: 47px;
+    position: relative;
+    margin: 50px auto 100px;
+    line-height: 47px;
+    border: 1px solid #333333;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333333;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+/********** P A R T N E R S **********/
+.partners{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    opacity: 1;
+}
+.partners h2{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+    text-transform: none;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.partners .list-partners{
+    position: absolute;
+    width: 900px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 210px;
+    padding-left: 410px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.partners .list-partners:hover{
+    opacity: 1;
+}
+/********** C O N T A C T **********/
+.contact{
+    height: 500px;
+}
+.contact h2{
+    font-size: 34px;
+    color: black;
+    text-align: center;
+    margin-top: 120px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.contact hr{
+    color: black;
+    margin-top: 30px;
+    background-color: black;
+    height: 1px;
+    width: 106px;
+    border: 0;
+}
+.contact form{
+    padding-top: 90px;
+    margin-left: 60px;
+}
+.contact .form-control{
+    width: 180px;
+    height: 40px;
+    background: #f8f7f7;
+    border-top: 1px solid #333;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    color: #333;
+    font-weight: 300;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.contact .form-control-area{
+    background: #f8f7f7;
+    border-top: 1px solid #333;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    color: #333;
+    font-weight: 300;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    resize: none;
+}
+.contact .content{
+    padding-top: 90px;
+    width: 405px;
+    overflow: hidden;
+    height: auto;
+    font-weight: 300;
+    float: left;
+    padding-left: 40px;
+    color: black;
+    font-size: 14px;
+    line-height: 26px;
+}
+.contact .btn{
+    width: 100px;
+    height: 34px;
+    margin: 20px 0 0 210px;
+    border: 0;
+    font-weight: 700;
+    text-align: right;
+    background: none;
+}
+/********** F O O T E R **********/
+.footer{
+    margin-top: 90px;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background: #3c3c3c;
+}
+.footer .footer-box{
+    padding-top: 52px;
+}
+.footer .list-footer{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.footer .list-footer .list-item{
+    text-decoration: none;
+    color: #a4a4a4;
+    outline: none;
+    font-size: 14px;
+    line-height: 46px;
+    padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer .copyright{
+    width: 80%;
+    position: relative;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 30px 0 50px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 36px;
+    color: #a4a4a4;
 }
